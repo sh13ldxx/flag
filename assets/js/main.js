@@ -12,7 +12,9 @@ jQuery(document).ready(function($) {
         var TruAnswer = RandomJson.name.common
         GetRandomNumber()
         var RandomJson2 = data[RandomNumber].name.common
+        GetRandomNumber()
         var RandomJson3 = data[RandomNumber].name.common
+        GetRandomNumber()
         var RandomJson4 = data[RandomNumber].name.common
                 $(".test").html(`
                 <img src="${RandomJson.flags.png}" alt="">
@@ -38,5 +40,11 @@ jQuery(document).ready(function($) {
                           }
                         }
                   });
+                //   totalnumber = 500;
+                //   async function myFunction() {
+                //       $("time")=html(
+
+                //       )
+                //       ;}
      } );
     });
